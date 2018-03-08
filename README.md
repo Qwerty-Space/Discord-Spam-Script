@@ -8,3 +8,6 @@ This script will send 9 messages every 8 milliseconds, then wait 5 seconds and s
 
 # How do I make it say something else?
 Change `:smiley:` to something else.  Open an issue, or PM me on Discord/Telegram if you know me on there and would like some help.
+
+# Dependencies
+Requires AutoHotkey and a brain
