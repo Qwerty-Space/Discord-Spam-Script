@@ -18,4 +18,5 @@ Download either the script (AHK) or the executable (found in releases) and doubl
 
 ### Dependencies
 Requires AutoHotkey and a brain
+
 None, if you run the executable file (found in releases)
