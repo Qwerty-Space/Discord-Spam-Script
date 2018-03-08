@@ -17,6 +17,5 @@ Change `:smiley:` to something else.  Open an issue, or PM me on Discord/Telegra
 Download either the script (AHK) or the executable (found in releases) and double click to run.  Press F4 (configurable) to toggle.
 
 ### Dependencies
-Requires AutoHotkey and a brain
-
+Requires AutoHotkey and a brain  
 None, if you run the executable file (found in releases)
