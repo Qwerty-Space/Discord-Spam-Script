@@ -7,22 +7,22 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force ; Makes sure the script only runs one at a time.
 
 #MaxThreadsPerHotkey 3
-*f4::
+*f3::
 #MaxThreadsPerHotkey 1
 If SpamLoop {
     SpamLoop := False
     return
 }
 SpamLoop := True
-Loop {
-    Loop 9 {
-        SendInput :smiley: ; Change ":smiley:" to whatever you
+Loop {                      ; Add a number after "Loop" if you want it to loop a specific number of times
+    Loop 9 {                ; The amount of messages it sends before waiting (default = 9)
+        SendInput 3:milk:   ; Change "3:milk:" to whatever you want
         SendInput {Enter}
         Sleep, 800
         if not SpamLoop
             break
     }
-    Sleep, 5000
+    Sleep, 5000             ; How long in milliseconds it will wait before it starts sending messages again
     if not SpamLoop
         break
 }
