@@ -9,20 +9,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #MaxThreadsPerHotkey 3
 *f3::
 #MaxThreadsPerHotkey 1
-If SpamLoop {
-    SpamLoop := False
+If CheatLoop {
+    CheatLoop := False
     return
 }
-SpamLoop := True
+CheatLoop := True
 Loop {                      ; Add a number after "Loop" if you want it to loop a specific number of times
     Loop 9 {                ; The amount of messages it sends before waiting (default = 9)
         SendInput 3:milk:   ; Change "3:milk:" to whatever you want
         SendInput {Enter}
         Sleep, 800
-        if not SpamLoop
+        if not CheatLoop
             break
     }
     Sleep, 5000             ; How long in milliseconds it will wait before it starts sending messages again
-    if not SpamLoop
+    if not CheatLoop
         break
 }
