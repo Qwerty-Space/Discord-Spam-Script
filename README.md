@@ -8,7 +8,7 @@ This script is intended to be used with Pokécord to increase your Pokémon's le
 ---
 
 ### What does it do?
-This script will send 9 messages every 8 milliseconds, then wait 5 seconds and start again.  
+This script will send 9 messages every 800 milliseconds, then wait 5 seconds and start again.  
 
 ### How do I make it say something else?
 Change `:smiley:` on [line 19](https://github.com/Qwerty-Space/Discord-Spam-Script/blob/eaf1ff036a02a81ba28eb60c3080ea361587a70d/Discord-Spam-Script.ahk#L19) to something else.  Open an issue, or PM me on Discord/Telegram if you know me on there and would like some help.
