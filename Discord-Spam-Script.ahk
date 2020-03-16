@@ -23,7 +23,7 @@ Loop {                      ; Add a number after "Loop" if you want it to loop a
         if not SpamLoop
             break
     }
-    Sleep, 5000             ; How long in milliseconds it will wait before it starts sending messages again
+    Sleep, 0             ; How long in milliseconds it will wait before it starts sending messages again
     if not SpamLoop
         break
 }
